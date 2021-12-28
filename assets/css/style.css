@@ -1,0 +1,52 @@
+.imaglogo {
+  width: 30px;
+}
+
+.barranabegacion {
+  background-color: transparent;
+}
+.carousel-control-prev{
+ opacity: 0; 
+  border: none;
+  width: 30px;
+  }
+.carousel-control-next{
+  opacity: 0; 
+  border: none;
+  width: 30px;
+}
+.carousel-control-prev-icon{
+  opacity: 0.9;
+}
+.carousel-control-next-icon{
+  opacity: 0.9;
+}
+.linecenter{
+  width: 90%;
+  border: #0e5cec solid 1px;
+  background-color: #0e5cec;
+  }
+#quienesomos{
+  background-color: black;
+  
+}
+.card-group{
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+}
+.card{
+  background-color: black;
+color: blanchedalmond;
+}
+.card h5{
+  background-color: #0e5cec;
+  font-size: 0.5rem;
+  text-align: center;
+}
+
+
+
+
+
+
