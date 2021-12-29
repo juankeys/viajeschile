@@ -1,52 +1,61 @@
 .imaglogo {
   width: 30px;
 }
-
 .barranabegacion {
   background-color: transparent;
 }
-.carousel-control-prev{
- opacity: 0; 
-  border: none;
-  width: 30px;
-  }
-.carousel-control-next{
-  opacity: 0; 
-  border: none;
-  width: 30px;
-}
-.carousel-control-prev-icon{
-  opacity: 0.9;
-}
-.carousel-control-next-icon{
-  opacity: 0.9;
-}
+
 .linecenter{
-  width: 90%;
+  width: 97%;
   border: #0e5cec solid 1px;
   background-color: #0e5cec;
   }
 #quienesomos{
   background-color: black;
-  
+  color: antiquewhite;
+  padding-top: 40px;
 }
 .card-group{
-width: 90%;
-margin-left: auto;
-margin-right: auto;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .card{
   background-color: black;
-color: blanchedalmond;
+  color: blanchedalmond;
 }
-.card h5{
+.cardicons{
   background-color: #0e5cec;
   font-size: 0.5rem;
   text-align: center;
 }
-
-
-
-
-
+#destacados{
+  background-color: black;
+  color: blanchedalmond;
+  padding-top: 40px;
+}
+.anchotargetas{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fondocardestacado{
+  background-color: #0e5cec;
+}
+.piepagina{
+  background-color: #0e5cec;
+  margin-left: auto;
+  margin-right: auto;
+}
+.piepagina{
+  display: flex;
+}
+.piepagina h4{
+  margin: auto 15% auto 3%;
+}
+.piepagina div{
+  font-size: 2rem;
+  margin: auto 0 auto 40%;
+  text-align: right;
+}
 
