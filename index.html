@@ -2,6 +2,7 @@
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8" />
+    <link rel="icon" href="assets/img/viajes.svg">
     <title>Viajes Chile</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--CSS de Bootstrap 4.6.1-->
@@ -192,7 +193,7 @@
       </h2>
       <hr class="linecenter" />
       <div class="row row-cols-1 row-cols-md-3 anchotargetas">
-        <div class="col mb-4 h-100">
+        <div class="col-12 col-md-6 col-lg-3">
           <div class="card fondocardestacado h-100">
             <img src="assets/img/card1.jpg" class="card-img-top" alt="card1" />
             <div class="card-body">
@@ -205,10 +206,11 @@
             </div>
           </div>
         </div>
-        <div class="col mb-4 h-100">
+        <div class="col-12 col-md-6 col-lg-3">
           <div class="card fondocardestacado h-100">
             <img
               src="assets/img/card2.jpg"
+              id="anchoimg"
               class="card-img-top"
               alt="card2"
             />
@@ -223,7 +225,7 @@
             </div>
           </div>
         </div>
-        <div class="col mb-4 h-100">
+        <div class="col-12 col-md-6 col-lg-3 ">
           <div class="card fondocardestacado h-100">
             <img src="assets/img/card3.jpg" class="card-img-top" alt="card3" />
             <div class="card-body">
@@ -238,7 +240,7 @@
             </div>
           </div>
         </div>
-        <div class="col mb-4">
+        <div class="col-12 col-md-6 col-lg-3">
           <div class="card fondocardestacado h-100">
             <img src="assets/img/card4.jpg" class="card-img-top" alt="card4" />
             <div class="card-body">
@@ -253,25 +255,27 @@
       </div>
     </section>
     <!-- seccion contacto  -->
-    <section id="contacto" class="container my-5">
-      <h2 class="display-3 font-weight-bold text-center my-4">Contacto</h2>
+    <section id="contacto" class="">
+      <h2 class="display-3 font-weight-bold text-center">Contacto</h2>
       <hr class="linecenter" />
+      <div class="graciascontactarnos" >
+        <h5>Hola, gracias por contactarnos</h5>
+        <button type="button" class="btn btn-primary text-center ">
+  <a href="https://form.typeform.com/to/vPsGLvoF?typeform-medium=embed-snippet
+  " class="text-white"> Presiona para comensar</a> 
+</button>
+</div>
 
-      <div
-        data-tf-widget="LFzZC8dZ"
-        data-tf-iframe-props="title=My typeform"
-        style="width: 100%; height: 400px"
-      ></div>
-      <script src="//embed.typeform.com/next/embed.js"></script>
+      
     </section>
     <!-- seccion footer  -->
     <footer class="piepagina text-left text-light p-3">
       <h4>VIAJES CHILE</h4>
       <div>
-        <i class="fas fa-headphones"></i>
-        <i class="fab fa-linkedin-in"></i>
-        <i class="fab fa-twitter-square"></i>
-        <i class="fab fa-facebook-square"></i>
+        <a class="pieiconos" href="https://accounts.spotify.com/es-ES/login/?continue=https:%2F%2Fwww.spotify.com%2Fcl%2Fpremium%2F&_locale=es-CL"  target="_blank"><i class="fas fa-headphones"></i></a>
+        <a  class="pieiconos" href="https://www.linkedin.com/login/cl" target="_blank"><i class="fab fa-linkedin-in pieiconos"></i></a>
+        <a class="pieiconos"   href="https://twitter.com/?lang=cl"  target="_blank"><i class="fab fa-twitter-square"></i></a>
+        <a class="pieiconos" href="https://web.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjQwNzk2MDMxLCJjYWxsc2l0ZV9pZCI6MjY5NTQ4NDUzMDcyMDk1MX0%3D"  target="_blank"><i class="fab fa-facebook-square"></i></a>
       </div>
     </footer>
 
@@ -282,7 +286,7 @@
       crossorigin="anonymous"
     ></script>
 
-    <!--Popper JS 1.14.3-->
+    <!--Popper JS 1.14.6-->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
       integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
